@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about:
     "Founding team at Vesara. AI agent products, investing and capital allocation.",
   summary:
-    "Founding team at Vesara, where I build AI products by directing coding agents: Prospero, an outbound-sales platform with 48 MCP tools; a meeting-prep agent with its own identity resolver; an SEO audit built on Jev; and the team's content review tool. In parallel I'm a fractional partner at Potrero Capital, a family office investing across AI, climate tech, gaming and real estate, and I sit on the board of CITILET, a real estate and construction holding. Bachelor in International Business with Distinction from Grenoble École de Management.",
+    "Founding team at Vesara, where I build AI products by directing coding agents: Prospero, an outbound-sales platform with 48 MCP tools; a meeting-prep agent with its own identity resolver; an SEO audit built on Jev; a search-ads keyword pipeline; and the team's content review tool. In parallel I'm a fractional partner at Potrero Capital, a family office investing across AI, climate tech, gaming and real estate, and I sit on the board of CITILET, a real estate and construction holding. Bachelor in International Business with Distinction from Grenoble École de Management.",
   avatar,
   siteUrl: "https://waviestsun.github.io/cv/",
   contact: {
@@ -91,14 +91,6 @@ export const RESUME_DATA: ResumeData = {
       end: "Sep 2022",
       description: "Fundraising and pitch development.",
     },
-    {
-      company: "Chora 2030",
-      badges: ["Internship", "Copenhagen, Denmark"],
-      title: "Communications Assistant",
-      start: "Dec 2017",
-      end: "Dec 2017",
-      description: "Communications internship.",
-    },
   ],
   skills: [
     "AI agents",
@@ -137,6 +129,13 @@ export const RESUME_DATA: ResumeData = {
       techStack: ["TypeScript", "Jev", "Claude Code", "Vitest"],
       description:
         "An SEO and AI-answer-engine audit that runs from Claude Code. It crawls a site within robots.txt, runs 47 checks, has Jev, TypeSafe's classifier, answer narrow questions and sends unsure cases to Claude through a validated queue. It then maps keywords to pages and finds gaps and pages competing for the same search. 430 tests; hardened through live runs on copilot.money and nebula.io.",
+    },
+    {
+      title: "Search-ads keyword pipeline",
+      date: "Oct 2026",
+      techStack: ["Claude in Chrome", "Google Ads", "Ahrefs", "openpyxl"],
+      description:
+        "A Claude skill that turns a company, its competitors and a target region into a scored paid-search keyword workbook. Terms pass a six-step filter: Autocomplete phrasing, a Trends gate, Ahrefs difficulty, the Ads Transparency Center and the live regional results page through Google Ads Ad Preview. Each gets a 0 to 100 score on volume, cost, crowding and data completeness and a BID, TEST or CAUTION verdict, alongside Google's merged search-term pools and an advertiser map.",
     },
     {
       title: "feedtheloop",

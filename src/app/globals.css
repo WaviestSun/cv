@@ -73,7 +73,7 @@
 @media print {
   /* Keeps the CV on one A4 page. */
   html {
-    zoom: 0.85;
+    zoom: 0.82;
   }
 
   .animate-fade-in {
