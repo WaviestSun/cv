@@ -109,7 +109,6 @@ export const RESUME_DATA: ResumeData = {
   projects: [
     {
       title: "Prospero",
-      date: "Aug 2026",
       techStack: [
         "TypeScript",
         "Next.js",
@@ -130,7 +129,6 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Atelier",
-      date: "Oct 2026",
       techStack: [
         "Python",
         "Blender",
@@ -150,7 +148,6 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Claude to Cursor",
-      date: "Aug 2026",
       techStack: [
         "TypeScript",
         "Cursor SDK",
@@ -168,7 +165,6 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Jev SEO",
-      date: "Sep 2026",
       techStack: [
         "TypeScript",
         "TypeSafe Jev",
@@ -184,7 +180,6 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "feedtheloop",
-      date: "Oct 2026",
       techStack: [
         "TypeScript",
         "Next.js",
@@ -205,7 +200,6 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Sharon GC",
-      date: "Jun 2026",
       techStack: [
         "TypeScript",
         "Next.js",
