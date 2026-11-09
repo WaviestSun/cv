@@ -66,7 +66,7 @@ export const RESUME_DATA: ResumeData = {
       start: "Jan 2019",
       end: null,
       description:
-        "Board member of Karin ApS, a holding in real estate, construction and holiday rentals. Kept its books from 2019 to 2023 before joining the board.",
+        "Board member of the family-run business, making decisions on operations and capital management across its European assets.",
     },
     {
       company: "Future Tech Games",
@@ -141,7 +141,7 @@ export const RESUME_DATA: ResumeData = {
       date: "Jun 2026",
       techStack: ["Next.js", "OpenClaw", "Composio", "Vercel"],
       description:
-        "Built an AI CRM for residential general contractors for a client of Miara, taking it from a non-working frontend to a live product. It tracks projects by phase, clients, vendors and compliance, and each user gets their own AI assistant, connected to Gmail, Calendar and Drive, that can update all of it.",
+        "Built an AI CRM for residential general contractors for a client of MAIRA, taking it from a non-working frontend to a live product. It tracks projects by phase, clients, vendors and compliance, and each user gets their own AI assistant, connected to Gmail, Calendar and Drive, that can update all of it.",
     },
   ],
 };
