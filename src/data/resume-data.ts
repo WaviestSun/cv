@@ -7,7 +7,7 @@ export const RESUME_DATA: ResumeData = {
   locationLink: "https://www.google.com/maps/place/France",
   about: "Founding team at Vesara & Fractional Partner at Potrero Capital",
   summary:
-    "Founding team at Vesara, working across product, marketing and sales. I build AI products and the tools our team runs on, and I invest in early-stage companies as a fractional partner at Potrero Capital.",
+    "Founding team at Vesara, a San Francisco AI startup building infrastructure that recovers lost revenue from company data. I design and ship products end to end, from client platforms to internal tools, and I run outbound GTM, sales, and paid and organic content, from strategy to creation. Alongside Vesara, I hold a fractional position at a family office, where I scout venture deals and carry out due diligence.",
   avatar,
   siteUrl: "https://waviestsun.github.io/cv/",
   contact: {
