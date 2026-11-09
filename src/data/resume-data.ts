@@ -5,10 +5,9 @@ export const RESUME_DATA: ResumeData = {
   name: "Alexander Graham Shepherd",
   location: "France",
   locationLink: "https://www.google.com/maps/place/France",
-  about:
-    "Founding team at Vesara & Fractional Partner at Potrero Capital",
+  about: "Founding team at Vesara & Fractional Partner at Potrero Capital",
   summary:
-    "As founding team at Vesara my role covers a plethora of responsabilities which mainly link to Vesara's Engineering & Go To Market strategy/activities. ",
+    "Founding team at Vesara, working across product, marketing and sales. I build AI products and the tools our team runs on, and I invest in early-stage companies as a fractional partner at Potrero Capital.",
   avatar,
   siteUrl: "https://waviestsun.github.io/cv/",
   contact: {
@@ -44,10 +43,11 @@ export const RESUME_DATA: ResumeData = {
       start: "Mar 2026",
       end: null,
       description:
-        "Vesara runs long-horizon agents on a company's data to resurface the revenue it is losing. Advisor from March 2026, founding team since June.",
+        "Vesara builds AI agents that find lost revenue in a company's data. Advisor from March 2026, then founding team from June, working across product, marketing and sales.",
       highlights: [
-        "Built ",
-        "Shipped delivery, monitoring and quality guardrails for the Vesara Daily newsletter",
+        "Product: built frontends for pilot-ready products, plus the internal tools the team runs on: Prospero for outbound, feedtheloop for creative review, Claude to Cursor for managing coding agents, and the search-term research we use for paid search.",
+        "Marketing: set ad strategy and produce the static and video ad iterations.",
+        "Sales: run in-person outbound through my own network and invitation-only events such as the Monaco Yacht Show.",
       ],
     },
     {
@@ -57,7 +57,7 @@ export const RESUME_DATA: ResumeData = {
       start: "May 2023",
       end: null,
       description:
-        "Syndicating, investing and advising across AI, climate tech, gaming, blockchain, real estate, automotive and aviation, cybersecurity and biotech.",
+        "Syndicating, investing and advising across AI, climate tech, gaming and real estate.",
     },
     {
       company: "CITILET",
@@ -66,7 +66,7 @@ export const RESUME_DATA: ResumeData = {
       start: "Jan 2019",
       end: null,
       description:
-        "Executive-level operations, management and capital allocation for Karin ApS and its holdings across real estate, construction and holiday rental. Kept the books for four years before joining the board in 2023.",
+        "Board member of the family-run business, making decisions on operations and capital management across its European assets.",
     },
     {
       company: "Future Tech Games",
@@ -99,42 +99,49 @@ export const RESUME_DATA: ResumeData = {
       date: "Aug 2026",
       techStack: ["Next.js", "Neon", "MCP", "Vitest"],
       description:
-        "A hosted outbound-sales platform that runs inside Claude through 48 MCP tools: ICP, personas, accounts, signals, enrichment, email verification, sequences and launch, across 14 providers including Apollo, Hunter, Instantly and Smartlead. Multi-tenant on Neon with row-level security, and three rules no code path can skip: nothing sends without approval, invalid emails are dropped, replies are drafted and never sent. 1,400+ commits and 240 merged pull requests, 339 test files, live acceptance checks on every preview.",
+        "An outbound sales platform that connects every step of outbound (lead sourcing, enrichment, email verification, sequencing and sending) to Claude, so a full campaign runs from chat. Workspaces are shared, so operators and their AI agents work on the same lists and campaigns. Built for a Darwinian Ventures client, and now used internally at Vesara and Darwinian Ventures.",
     },
     {
-      title: "Vesara Meeting Prep",
-      date: "Jun 2026",
-      techStack: ["Next.js", "Vercel Workflow", "Neon", "MCP"],
+      title: "Atelier",
+      date: "Oct 2026",
+      techStack: ["Python", "Blender", "ffmpeg", "Playwright"],
       description:
-        "An agent product that preps every meeting. It syncs Google Calendar, picks out the real meetings, profiles each participant from Apollo, Tavily, Exa and Gmail, and emails a brief 15 minutes before. Its identity resolver chains four data providers with every fact tied to its source and resolves 11 to 12 of 17 people on a cold-email benchmark. Admin console, MCP server and a Claude plugin; 257 pull requests, 180+ test files.",
+        "A toolkit that lets coding agents like Claude Code produce finished motion graphics and video, from animated overlays that track faces and hands to explainers and short films. The person sets the style with their own references, and Atelier checks the work against them before anything is rendered.",
+    },
+    {
+      title: "Claude to Cursor",
+      date: "Aug 2026",
+      techStack: ["TypeScript", "MCP", "Cursor SDK", "Vercel"],
+      description:
+        "A Claude plugin that turns Claude into a manager for Cursor's coding agents. It splits a large task into parallel jobs, launches an agent for each, tracks their progress and collects the finished pull requests. Hosted for multiple users, each connecting their own Cursor account.",
     },
     {
       title: "Jev SEO",
       date: "Sep 2026",
       techStack: ["TypeScript", "Jev", "Claude Code", "Vitest"],
       description:
-        "An SEO and AI-answer-engine audit that runs from Claude Code. It crawls a site within robots.txt, runs 47 checks, has Jev, TypeSafe's classifier, answer narrow questions and sends unsure cases to Claude through a validated queue. It then maps keywords to pages and finds gaps and pages competing for the same search. 430 tests; hardened through live runs on copilot.money and nebula.io.",
+        "An SEO and AI-search audit, run from Claude Code, that ranks what a site should fix first. A fast classifier makes the many small page-level calls and Claude handles only the unclear cases, which keeps audits cheap and consistent. Used on Nebula.io's live site and to test planned new pages before launch.",
     },
     {
-      title: "Search-ads keyword pipeline",
+      title: "Search-term research",
       date: "Oct 2026",
       techStack: ["Claude in Chrome", "Google Ads", "Ahrefs", "openpyxl"],
       description:
-        "A Claude skill that turns a company, its competitors and a target region into a scored paid-search keyword workbook. Terms pass a six-step filter: Autocomplete phrasing, a Trends gate, Ahrefs difficulty, the Ads Transparency Center and the live regional results page through Google Ads Ad Preview. Each gets a 0 to 100 score on volume, cost, crowding and data completeness and a BID, TEST or CAUTION verdict, alongside Google's merged search-term pools and an advertiser map.",
+        "A Claude skill that tells a company which paid-search keywords to bid on in a given region. It reads live search results and the ads competitors are running, then rates each term bid, test or avoid.",
     },
     {
       title: "feedtheloop",
       date: "Oct 2026",
       techStack: ["Next.js", "Neon", "Drizzle", "Scriptable"],
       description:
-        "The Vesara team's tool for reviewing ads, videos and copy: yes, no or maybe votes, plus head-to-head ranking. Votes come from the web, Slack and an iPhone home-screen widget in Vesara's colours; content imports from Google Drive, and it has its own MCP server. Multi-tenant on Neon with row-level security and isolation tests; 70 pull requests in two weeks.",
+        "A review tool where a team votes on or ranks ads, videos and copy from the web, Slack or their phone. Because it plugs into Claude, AI agents can send what they make straight to the team and read back what won.",
     },
     {
       title: "Sharon GC",
       date: "Jun 2026",
       techStack: ["Next.js", "OpenClaw", "Composio", "Vercel"],
       description:
-        "Extended an AI construction-management app for a residential general contractor, covering permits to punch list, clients and vendors, document triage and compliance. I added a per-tenant OpenClaw agent gateway, Stack Auth, Composio integrations, persistent chat, voice and file uploads, across 33 pull requests and 29 production deployments.",
+        "Built an AI CRM for residential general contractors for a client of MAIRA, taking it from a non-working frontend to a live product. It tracks projects by phase, clients, vendors and compliance, and each user gets their own AI assistant, connected to Gmail, Calendar and Drive, that can update all of it.",
     },
   ],
 };
