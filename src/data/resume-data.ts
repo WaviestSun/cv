@@ -6,9 +6,9 @@ export const RESUME_DATA: ResumeData = {
   location: "France",
   locationLink: "https://www.google.com/maps/place/France",
   about:
-    "Founding team at Vesara. AI agent products, investing and capital allocation.",
+    "Founding team at Vesara & Fractional Partner at Potrero Capital",
   summary:
-    "Founding team at Vesara, where I build AI products by directing coding agents: Prospero, an outbound-sales platform with 48 MCP tools; a meeting-prep agent with its own identity resolver; an SEO audit built on Jev; a search-ads keyword pipeline; and the team's content review tool. In parallel I'm a fractional partner at Potrero Capital, a family office investing across AI, climate tech, gaming and real estate, and I sit on the board of CITILET, a real estate and construction holding. Bachelor in International Business with Distinction from Grenoble École de Management.",
+    "As founding team at Vesara my role covers a plethora of responsabilities which mainly link to Vesara's Engineering & Go To Market strategy/activities. ",
   avatar,
   siteUrl: "https://waviestsun.github.io/cv/",
   contact: {
@@ -34,13 +34,6 @@ export const RESUME_DATA: ResumeData = {
       start: "2021",
       end: "2024",
     },
-    {
-      school: "American School of Grenoble",
-      degree:
-        "High School Diploma, with Advanced Placement in European History, Comparative Government and French",
-      start: "2018",
-      end: "2021",
-    },
   ],
   work: [
     {
@@ -53,7 +46,7 @@ export const RESUME_DATA: ResumeData = {
       description:
         "Vesara runs long-horizon agents on a company's data to resurface the revenue it is losing. Advisor from March 2026, founding team since June.",
       highlights: [
-        "Built Prospero, the meeting-prep platform and its identity resolver, and feedtheloop, directing AI coding agents across 550+ merged pull requests",
+        "Built ",
         "Shipped delivery, monitoring and quality guardrails for the Vesara Daily newsletter",
       ],
     },
@@ -83,14 +76,6 @@ export const RESUME_DATA: ResumeData = {
       end: "Dec 2025",
       description: "Advised on general management and fundraising.",
     },
-    {
-      company: "Cut Media ltd",
-      badges: ["Internship"],
-      title: "Summer Intern",
-      start: "Jun 2022",
-      end: "Sep 2022",
-      description: "Fundraising and pitch development.",
-    },
   ],
   skills: [
     "AI agents",
@@ -102,7 +87,7 @@ export const RESUME_DATA: ResumeData = {
     "Postgres",
     "Vercel",
     "Docker",
-    "SEO",
+    "SEO, GEO, AEO",
     "Private equity",
     "Fundraising",
     "Financial advisory",
@@ -150,14 +135,6 @@ export const RESUME_DATA: ResumeData = {
       techStack: ["Next.js", "OpenClaw", "Composio", "Vercel"],
       description:
         "Extended an AI construction-management app for a residential general contractor, covering permits to punch list, clients and vendors, document triage and compliance. I added a per-tenant OpenClaw agent gateway, Stack Auth, Composio integrations, persistent chat, voice and file uploads, across 33 pull requests and 29 production deployments.",
-    },
-    {
-      title: "byo-sub",
-      date: "Oct 2026",
-      link: "https://github.com/WaviestSun/byo-sub",
-      techStack: ["Node", "OAuth", "OpenAI"],
-      description:
-        "Open-source starter that lets people use their own ChatGPT plan inside your app: no API key, no AI bill. Sign in with ChatGPT, token refresh that never runs twice at once, streaming chat, and same-origin and CSP protection, in about 670 lines of plain Node with one dependency.",
     },
   ],
 };
